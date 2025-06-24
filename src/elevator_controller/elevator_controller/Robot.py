@@ -1,5 +1,5 @@
 import requests
-from Authorization import Authorization
+from elevator_controller.Authorization import Authorization
 
 class Robot:
     """
