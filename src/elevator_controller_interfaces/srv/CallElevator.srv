@@ -1,0 +1,19 @@
+# 엘리베이터 부르기
+
+string line_id           # 호출 라인아이디
+string call_type         # 호출타입 요청 콜 종류* (hall: 홀콜 요청 / robot: 로봇 전용)
+string source_floor      # 탑승 층 (표기층)
+string direction         # 이동 방향 (up: 상행 / down: 하행)
+string destination_floor # 목적 층 (표기층)
+string thing_info        # 사물 식별정보
+---
+string el_id                 # EL 일련번호
+string mode                  # EL 운행 모드 (auto: 정상 / fault: 고장 / insp: 점검 중 / parking: 파킹 / etc: 기타)
+string current_floor         # EL 현재 층 (표기층)
+string direction             # EL 이동 방향 (none: 정지 / up: 상행운전 중 / down: 하행운전 중)
+string door_status           # 도어 상태 (open: 열림 / close: 닫힘 / opening: 열리는 중 / closing: 닫히는 중)
+string registed_up_hall_call # 상행 홀콜 등록 현황 (쉼표 구분 문자열)
+string registed_dn_hall_call # 하행 홀콜 등록 현황 (쉼표 구분 문자열)
+string registed_car_call     # 카콜 등록 현황 (쉼표 구분 문자열)
+string message_id            # 이벤트에 대한 고유값 (새로 추가)
+string thing_info            # 사물 식별정보 (ex: 로봇ID) (새로 추가)
