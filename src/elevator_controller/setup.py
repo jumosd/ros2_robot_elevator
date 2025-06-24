@@ -20,7 +20,8 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'test_node = elevator_controller.test_node:main'
+            'test_node = elevator_controller.test_node:main',
+            'elevator_call_service_node = elevator_controller.elevator_call_service_node:main'
         ],
     },
 )
