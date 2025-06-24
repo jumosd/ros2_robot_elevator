@@ -17,6 +17,7 @@ find_package(rosidl_default_generators REQUIRED)
 #내가만든 msg는 아래에다가넣어주기
 rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/ElevatorStatus.msg"
+  "srv/CallElevator.srv"
   DEPENDENCIES geometry_msgs # Add packages that above messages depend on, in this case geometry_msgs for Sphere.msg
 )
 
